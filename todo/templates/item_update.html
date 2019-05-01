@@ -1,0 +1,11 @@
+{% extends 'list_items.html' %}
+{% block content %}
+<div class="container">
+  <h2>Update the item below</h2>
+  <form  method="post">
+  {% csrf_token %}
+  {{form.as_p}}
+  <input type="submit" class='btn btn-warning' value="Update">
+</form>
+</div>
+{% endblock %}
