@@ -25,7 +25,7 @@ SECRET_KEY = 'g#czyyt^8!zhd0-sv_51_$a)=!%(n*nuwutnot7i=q6no$r*y^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['manthaka.pythonanywhere.com',]
 
 
 # Application definition
